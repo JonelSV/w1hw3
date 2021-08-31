@@ -29,8 +29,8 @@ class DivThree extends Component {
         return (
             <div>
                 <h3 onClick={ () => (this.changeIt(this.state.tardis.name))}>{this.state.tardis.name}</h3>
-                <h3 onClick={ () => (this.changeIt(this.state.tardis.name))}>{this.state.tardis.name}</h3>
             </div>
+            
         );
     }
 }
